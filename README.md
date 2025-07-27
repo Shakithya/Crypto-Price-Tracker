@@ -1,12 +1,19 @@
-# React + Vite
+Crypto Price Tracker
+ - It is an simple price tracker for crypto currencies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Feature
+  - Display current value for 10 crypto currencies
+  - Along with this there is an chart for bitcoin to display the line chart for 1D, 7D, 1M
+  - API from coingecko
+  - You can able to see the value of currency in three different values USD, INR, EURO
 
-Currently, two official plugins are available:
+Tech Stack
+  - Reactjs
+  - Vite
+  - Material UI
+  - Chart.js - an react library for displaying chart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to run 
+- Clone this repository and git clone<url>
+- npm install
+- npm run dev
